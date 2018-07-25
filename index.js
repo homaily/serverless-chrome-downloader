@@ -58,7 +58,7 @@ module.exports = async (location, channel, repoName) => {
   }
 
   console.log('Saving file...')
-  await writeFilePromise(location, binary.data)
+  await writeFilePromise(location, binary.data, {mode: 0o755})
 
   console.log('Done!')
 }
