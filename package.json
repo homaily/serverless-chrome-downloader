@@ -1,6 +1,6 @@
 {
   "name": "serverless-chrome-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless Chrome Downloader",
   "author": "Abdulaziz Homaily <a.homaily@gmail.com> (https://github.com/homaily)",
   "license": "MIT",
