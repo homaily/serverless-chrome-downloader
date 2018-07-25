@@ -46,7 +46,7 @@ module.exports = async (location, channel, repoName) => {
   const size = (asset.size / 1024 / 1024).toFixed(1)
 
   console.log(`Downloading (${asset.label}) [${size} MB]...`)
-  const archiveResponse = await fetch(asset.url)
+  const archiveResponse = await fetch(asset.browser_download_url)
   const archiveBuffer = await archiveResponse.buffer()
 
   console.log('Unzipping...')
