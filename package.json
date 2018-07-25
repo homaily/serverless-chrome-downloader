@@ -1,0 +1,40 @@
+{
+  "name": "serverless-chrome-downloader",
+  "version": "1.0.0",
+  "description": "Serverless Chrome Downloader",
+  "author": "Abdulaziz Homaily <a.homaily@gmail.com> (https://github.com/homaily)",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "prepublish": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Serverless",
+    "Chrome",
+    "Downloader",
+    "Headless",
+    "Lambda"
+  ],
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "dependencies": {
+    "decompress-unzip": "^4.0.1",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "homepage": "https://github.com/homaily/serverless-chrome-downloader",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/homaily/serverless-chrome-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/homaily/serverless-chrome-downloader/issues"
+  }
+}
