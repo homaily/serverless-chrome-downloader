@@ -24,10 +24,10 @@
   },
   "dependencies": {
     "decompress-unzip": "^4.0.1",
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "standard": "^11.0.1"
+    "standard": "^14.1.0"
   },
   "homepage": "https://github.com/homaily/serverless-chrome-downloader",
   "repository": {

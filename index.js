@@ -1,6 +1,6 @@
 'use strict'
 
-const {promisify} = require('util')
+const { promisify } = require('util')
 const fs = require('fs')
 
 const fetch = require('node-fetch')
@@ -58,7 +58,7 @@ module.exports = async (location, channel, repoName) => {
   }
 
   console.log('Saving file...')
-  await writeFilePromise(location, binary.data, {mode: 0o755})
+  await writeFilePromise(location, binary.data, { mode: 0o755 })
 
   console.log('Done!')
 }
